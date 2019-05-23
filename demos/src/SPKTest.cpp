@@ -32,6 +32,7 @@
 #include <SDL.h>
 #include <SPARK.h>
 #include <SPARK_GL.h>
+#undef main
 
 
 float angleX = 0.0f;

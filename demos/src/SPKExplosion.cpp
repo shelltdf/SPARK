@@ -35,6 +35,8 @@
 #include <SPARK.h>
 #include <SPARK_GL.h>
 
+#undef main 
+
 SPK::Vector3D camPos;
 float camAngleY = 0.0f;
 float camAngleX = 0.0f;

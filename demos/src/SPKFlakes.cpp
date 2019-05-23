@@ -35,6 +35,7 @@
 #include <SPARK.h>
 #include <SPARK_GL.h>
 
+#undef main 
 float angleX = 0.0f;
 float angleZ = 0.0f;
 const float CAM_POS_Z = 2.75f;
